@@ -7,9 +7,9 @@
 @preprocessor default
 
 ==/UserStyle== */
-@-moz-document regexp(".*.atlassian.net/jira.*"),
-regexp(".*.atlassian.net/browse.*"),
-regexp(".*.atlassian.net/secure.*") {
+@-moz-document regexp(".*jira.finastra.*"),
+regexp(".*jira.finastra.*"),
+regexp(".*jira.finastra*") {
     header[role="banner"],
     [data-testid="Content"],
     html,
